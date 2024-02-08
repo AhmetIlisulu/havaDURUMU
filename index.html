@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input class="input" type="text" id="searchBar" placeholder="Şehir İsmi"
+            spellcheck="false">
+        </div>
+        <div class="error">
+            <p>Lütfen Şehir Adını Doğru Girin</p>
+        </div>
+        <div class="weather-top">
+            <div class="weather-top-col">
+                <img  class="weather-icon">
+            </div>
+            <div class="weather-top-col-right">
+                <h1 class="weather-top-col-right-temp"></h1>
+                <h2 class="weather-top-col-right-city-name"></h2>
+            </div>
+        </div>
+        <div class="weather-buttom">
+            <div class="weather-buttom-col-left">
+                <img class="humidity-icon" src="images/humidity.png">
+                <div class="weather-buttom-info">
+                    <p class="humidity"></p>
+                    <p>Nem Oranı</p>
+                </div>
+            </div>
+            <div class="weather-buttom-col-right">
+                <img class="wind-icon" src="images/wind.png">
+                <div class="weather-buttom-info">
+                    <p class="wind"></p>
+                    <p>Rüzgar Hızı</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
